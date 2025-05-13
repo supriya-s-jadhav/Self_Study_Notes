@@ -6,17 +6,19 @@ This is simply a self-contained location that enables us to maintain separate an
 Without conflicts across different projects
 
 ### Commands
+
 These commands are for mac os:
-Create virtual env
+
+- Create virtual env
 ```
 python3 -m venv env
 ```
-Activate virtual env
+- Activate virtual env
 ```
 source env/bin/activate
 ```
 
-Deactivate virtual env
+- Deactivate virtual env
 ```
 deactivate
 ```
@@ -40,3 +42,8 @@ pip install -r requirements.txt
 ```
 pip freeze > requirements.txt 
 ```
+
+### Reference:
+
+- [Python virtual environments in VS Code](https://code.visualstudio.com/docs/python/environments)
+- [Youtube video](https://www.youtube.com/watch?v=Y21OR1OPC9A)
